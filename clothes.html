@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .product-card img:hover {
+            transform: scale(1.08);
+        }
+
+        .product-card p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .product-card h5 {
+            margin: 5px 0;
+            color: #ff9800;
+        }
+
+        .product-card h4 {
+            color: #e91e63;
+            margin-bottom: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .buttons button {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .buy-btn {
+            background-color: #ff5722;
+            color: white;
+        }
+
+        .cart-btn {
+            background-color: #008cba;
+            color: white;
+        }
+
+        .buy-btn:hover {
+            background-color: #e64a19;
+            transform: scale(1.05);
+        }
+
+        .cart-btn:hover {
+            background-color: #0073a7;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            .products {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+#customerEngagement {
+    margin-top: 40px;
+}
+
+.testimonial {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        🛍️ Welcome to Our Clothing Store
+    </header>
+
+    <nav>
+        <a href="#men">Men</a>
+        <a href="#women">Women</a>
+        <a href="#customerEngagement">Customer Reviews</a>
+    </nav>
+
+    <main>
+        <h2>Our Collection</h2><br><br><br><br>
+
+        <section class="products">
+            <!-- Men's Clothing -->
+            <div class="product-card" id="men">
+                <h3>Men's Clothing</h3><br><br><br><br>
+                <img src="https://m.media-amazon.com/images/I/519X02vsiPL._AC_UL480_FMwebp_QL65_.jpg" alt="Men's Clothing">
+                <br><br>    <p>Boldfit Slim Fit Joggers for Men - Running, Gym, Sports Lower, Activewear Trousers</p>
+                <h5>⭐⭐⭐⭐⭐ (5/5)</h5>
+                <h4>Price: ₹900 <span style="color:gray; font-size:14px;">(49% off)</span></h4>
+                <div class="buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart 🛒</button>
+                </div>
+            </div>
+
+            <!-- Women's Clothing -->
+            <div class="product-card" id="women">
+                <h3>Women's Clothing</h3><br><br><br><br>
+                <img src="https://static.photodexia.com/original/repository/s-e/4734a42513256f2917c17d3f08bc88a2shutterstock585964295ab638332af3f.jpg" alt="Women's Clothing">
+                <br><br>    <p>VRVastra Embroidered Midi Dress - Perfect Beach & Casual Wear</p>
+                <h5>⭐⭐⭐⭐⭐ (5/5)</h5>
+                <h4>Price: ₹699<span style="color:gray; font-size:14px;">(23% off)</span></h4>
+                <div class="buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart 🛒</button>
+                </div>
+            </div>
+        </section>
+    </main>
+ <!-- Customer Engagement -->
+ <section id="customerEngagement">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+        <p>⭐⭐⭐⭐⭐ "Great product quality and fast delivery! Highly recommended."</p>
+        <p>- A Happy Customer</p>
+    </div>
+</body>
+</html>
