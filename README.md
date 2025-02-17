@@ -1,5 +1,6 @@
 # E-commerce
-About This Project
+About This Project :
+
 This e-commerce website is a web development project created as part of the Programming Club induction process at IIT Indore. The goal was to build a visually appealing, responsive, and user-friendly landing page that showcases products across multiple categories.
 
 Project Highlights
