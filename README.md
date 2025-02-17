@@ -1,18 +1,11 @@
 # E-commerce
-About Online Bazaar
-Welcome to Online Bazaar, your one-stop destination for a seamless and enjoyable shopping experience. Our platform is designed to offer a wide range of products, including electronics, clothing, and sports equipment, all in one place.
+About This Project
+This e-commerce website is a web development project created as part of the Programming Club induction process at IIT Indore. The goal was to build a visually appealing, responsive, and user-friendly landing page that showcases products across multiple categories.
 
-Our Mission
-We aim to provide customers with high-quality products at competitive prices while ensuring a user-friendly and engaging shopping experience.
+Project Highlights
+🛠 Technologies Used – HTML, CSS, JavaScript
+🖥 Features Implemented – Navigation bar, product sections, customer reviews, contact form
+📱 Responsive Design – Ensures smooth viewing across different devices
+🚀 Interactive Elements – Search functionality, hover effects, and customer engagement section
 
-Key Features:
-✅ Diverse Product Categories – Find everything from the latest gadgets to trendy fashion and sports gear.
-✅ User-Friendly Navigation – Our intuitive interface makes it easy to browse, search, and purchase products.
-✅ Customer Reviews & Ratings – Get insights from other shoppers before making a purchase.
-✅ Secure & Fast Checkout – Enjoy a hassle-free shopping experience with secure payment options.
-✅ Mobile-Friendly & Responsive Design – Shop anytime, anywhere, on any device.
-
-Why Choose Us?
-At Online Bazaar, we prioritize customer satisfaction, affordability, and convenience. Our goal is to create an online marketplace that is both reliable and enjoyable to use.
-
-Start shopping with Online Bazaar today and experience the future of online shopping
+This project demonstrates fundamental frontend development skills, UI/UX design principles, and basic JavaScript functionality. It serves as a stepping stone toward building dynamic web applications and improving coding proficiency.
